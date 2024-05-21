@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🏳️‍🌈 Gender tool</title>
+  <!-- optional styles -->
+  <link rel="stylesheet" href="filter.css">
+</head>
+<body>
+
+<div id="app">
+
+  <div class="round-border">
+    <label class="btn-look">Load Items<input type="file" style="display: none" v-on:change="loadData"></label>
+    <label class="btn-look" v-on:click="saveAll">Download</label>
+    <label class="count">Items: {{numItems}}</label>
+    <label class="count">Excluded: {{numExcluded}}</label>
+    <label class="count">Kept: {{numKept}}</label>
+  </div>
+
+  <div class="round-border">
+
+    <label class="btn-look-big" style="float: left" v-on:click="onExcludeItem(0)">❌ Kick</label>
+    <label class="item"><h2>{{current}}</h2></label>
+    <label class="btn-look-big" style="float: right" v-on:click="onKeepItem(0)">✅ Keep</label>
+  </div>
+  <div class="round-border-tall">
+      <p v-html="currentExample"></p>
+  </div>
+
+
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+<script src="filter.js"></script>
+
+
+</body>
+</html>

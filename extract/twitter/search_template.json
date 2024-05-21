@@ -1,0 +1,15 @@
+{
+  "search_over": "samples",
+  "max_outputs": 10,
+  "hit_type_filter": ["double_mention", "star_sg", "star_pl"],
+  "id_filter": [],
+  "text_regex": "",
+  "fem_hit_regex": "",
+  "male_hit_regex": "",
+  "loc_regex": "",
+  "user_regex": "",
+  "name_regex": "",
+  "year": "",
+  "month": "",
+  "day": ""
+}

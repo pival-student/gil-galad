@@ -1,0 +1,11 @@
+{
+  "input_file_pattern": "tweets-de-\\d+-text\\.gz",
+  "sample_file_length": 2000,
+  "sample_file_prefix": "samples",
+  "hit_file_length": 10000,
+  "hit_file_prefix": "hits",
+  "stats_file_prefix": "stats",
+  "count_occ": [],
+  "stats_per": "day",
+  "exclusion_set": "exclude.txt"
+}
